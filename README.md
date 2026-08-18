@@ -72,7 +72,7 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 Course project. A FastAPI web app for testing Bitcoin price forecasting models.
 
 - Built a FastAPI service to combine OHLCV ingestion, feature engineering, and forecasting; the API exposes historical data, forecasts, and side-by-side model results.
-- Compared PDT, XGBoost, LSTM, and a naive baseline on chronological 14-day and 30-day holdouts without future-data leakage; the experiment showed that added model complexity did not improve MAE, RMSE, or MAPE over the baseline.
+- Evaluated PDT, XGBoost, LSTM, and a naive baseline on chronological 14-day and 30-day holdouts without future-data leakage; used MAE, RMSE, and MAPE to identify the most stable approach for each forecast horizon.
 - **Stack:** Python, FastAPI, OpenAPI, PyTorch, XGBoost, JavaScript, Chart.js, pytest.
 
 ### [Telegram and Bitrix24 task bot](https://github.com/TuHeKocmoc/pytohn-task-bot)
