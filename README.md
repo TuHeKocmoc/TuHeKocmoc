@@ -2,8 +2,8 @@
 
 Software engineering student focused on backend systems, API integrations, distributed services, and applied machine learning.
 
-- 🎓 HSE University, Faculty of Computer Science — Applied Mathematics and Computer Science
-- 📊 Applied Data Analysis track, Business Data Analysis specialization
+- 🎓 HSE University, Faculty of Computer Science — Applied Mathematics and Informatics
+- 📊 Data Science & Business Analytics track, Business Data Analysis specialization
 - 📍 Moscow · open to remote, hybrid, and on-site work
 - 🌍 Russian — native · English — C1
 
