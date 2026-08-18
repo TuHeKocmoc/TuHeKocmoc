@@ -24,6 +24,8 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![QUIC](https://img.shields.io/badge/QUIC-4A4A4A?style=flat-square)
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EB5B25?style=flat-square)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -58,7 +60,7 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
 
 **Development:** C++, Python, Go, Java, C, Kotlin, JavaScript and TypeScript (basic), OOP, FastAPI, REST/OpenAPI, gRPC, QUIC  
-**ML:** PyTorch, XGBoost, pandas, NumPy, data analysis, feature engineering, time series, model training and evaluation  
+**ML:** PyTorch, TensorFlow, TensorFlow.js, XGBoost, pandas, NumPy, data analysis, feature engineering, time series, model training and evaluation  
 **Testing:** pytest, FastAPI TestClient, monkeypatch, unittest.mock, Go testing/httptest, Postman; unit, integration, and API testing  
 **DevOps:** Linux/CLI, Git/GitHub, Kafka, Kubernetes, Docker, Docker Compose, Nginx, CI/CD, build automation; PostgreSQL, MySQL, SQLite, ClickHouse, Redis, S3  
 **Monitoring:** Prometheus, Grafana, ELK Stack  
