@@ -7,7 +7,7 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 - Moscow. Open to remote, hybrid, or on-site work
 - Russian: native. English: C1
 
-## Tech stack
+## Skills
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -24,8 +24,12 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-**Backend:** REST/OpenAPI, HTTP/JSON, gRPC, JWT, external APIs, webhooks  
-**Engineering:** OOP, data structures and algorithms, testing, layered architecture, Linux/CLI
+**Development:** C++, Python, Go, C, Kotlin, JavaScript and TypeScript (basic), OOP, FastAPI, REST/OpenAPI, gRPC, PostgreSQL, SQLite, Git/GitHub, Linux/CLI, pytest, go test  
+**ML:** PyTorch, XGBoost, pandas, NumPy, data analysis, feature engineering, time series, model training and evaluation  
+**DevOps:** Kafka, Kubernetes, Docker, Docker Compose, CI/CD, build and test automation  
+**Monitoring:** Prometheus, Grafana, ELK Stack  
+**Documentation:** OpenAPI, technical and user documentation, User Stories, Use Cases, Jira, Confluence  
+**Soft skills:** task decomposition, teamwork, clear writing, presenting results, learning new tools independently
 
 ## Projects
 
