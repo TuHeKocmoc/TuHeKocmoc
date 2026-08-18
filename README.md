@@ -22,11 +22,6 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square)
 ![QUIC](https://img.shields.io/badge/QUIC-4A4A4A?style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EB5B25?style=flat-square)
@@ -34,6 +29,9 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 ![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![FastAPI TestClient](https://img.shields.io/badge/FastAPI_TestClient-009688?style=flat-square&logo=fastapi&logoColor=white)
+![unittest.mock](https://img.shields.io/badge/unittest.mock-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go testing](https://img.shields.io/badge/Go_testing-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -45,6 +43,12 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
@@ -53,10 +57,10 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
 
-**Development:** C++, Python, Go, Java, C, Kotlin, JavaScript and TypeScript (basic), OOP, FastAPI, REST/OpenAPI, gRPC, QUIC, PostgreSQL, MySQL, SQLite, Redis, S3  
+**Development:** C++, Python, Go, Java, C, Kotlin, JavaScript and TypeScript (basic), OOP, FastAPI, REST/OpenAPI, gRPC, QUIC  
 **ML:** PyTorch, XGBoost, pandas, NumPy, data analysis, feature engineering, time series, model training and evaluation  
-**Testing:** unit tests, integration tests, mock-based tests, stress tests, automated testing, pytest, go test, Postman  
-**DevOps:** Linux/CLI, Git/GitHub, Kafka, Kubernetes, Docker, Docker Compose, Nginx, CI/CD, build automation  
+**Testing:** pytest, FastAPI TestClient, monkeypatch, unittest.mock, Go testing/httptest, Postman; unit, integration, and API testing  
+**DevOps:** Linux/CLI, Git/GitHub, Kafka, Kubernetes, Docker, Docker Compose, Nginx, CI/CD, build automation; PostgreSQL, MySQL, SQLite, ClickHouse, Redis, S3  
 **Monitoring:** Prometheus, Grafana, ELK Stack  
 **Documentation:** Swagger/OpenAPI, technical and user documentation, User Stories, Use Cases, Jira, Confluence  
 **Soft skills:** task decomposition, teamwork, clear writing, presenting results, learning new tools independently
@@ -67,31 +71,31 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 
 Course project. A FastAPI web app for testing Bitcoin price forecasting models.
 
-- Loads and cleans OHLCV data, builds features, produces forecasts, and shows the results in a browser.
-- I implemented a Permutation Decision Tree and compared it with XGBoost, LSTM, and a naive baseline on a chronological holdout.
+- Built a FastAPI service to combine OHLCV ingestion, feature engineering, and forecasting; the API exposes historical data, forecasts, and side-by-side model results.
+- Compared PDT, XGBoost, LSTM, and a naive baseline on chronological 14-day and 30-day holdouts without future-data leakage; the experiment showed that added model complexity did not improve MAE, RMSE, or MAPE over the baseline.
 - **Stack:** Python, FastAPI, OpenAPI, PyTorch, XGBoost, JavaScript, Chart.js, pytest.
 
 ### [Telegram and Bitrix24 task bot](https://github.com/TuHeKocmoc/pytohn-task-bot)
 
 Telegram bot for creating and updating Bitrix24 tasks from messages.
 
-- Supports sprint tasks, deadlines, notifications, and scheduled reports.
-- Uses the Bitrix24 HTTP API and webhooks, PostgreSQL, Docker Compose, Prometheus, and Grafana.
+- Integrated Telegram with Bitrix24 to automate task creation; messages tagged `#задача` are parsed into a title, description, assignees, and deadline before submission through a webhook.
+- Set up PostgreSQL, Docker Compose, APScheduler, and Prometheus for state, scheduling, and observability; the service sends overdue reminders and weekly reports and exports command and task counters.
 
 ### [CalcAPI](https://github.com/TuHeKocmoc/yaLyceumFinal2)
 
 Distributed calculator written in Go.
 
-- A REST API receives expressions, and gRPC workers evaluate them in parallel.
-- Includes JWT authentication, SQLite storage, a layered structure, and tests for handlers, planning, calculations, and repositories.
+- Built an HTTP orchestrator with JWT and SQLite to accept and track expressions; the API returns a UUID, processing status, and final result.
+- Connected the orchestrator to gRPC workers and covered the end-to-end flow with integration tests, verifying task dispatch, status updates, and result persistence.
 - **Stack:** Go, REST, gRPC/Protocol Buffers, SQLite, JWT.
 
 ### [Portfolio Builder](https://github.com/TuHeKocmoc/HSE_trading_project)
 
 Python tool that collects stock and cryptocurrency data from Tinkoff Invest, OKX, and CoinGecko.
 
-- Calculates asset metrics, ranks instruments, and builds a portfolio for a specified budget.
-- Retries failed requests, handles API rate limits, exports data to CSV, and plots the final allocation.
+- Integrated Tinkoff Invest, OKX, and CoinGecko APIs to collect stock and cryptocurrency data; the pipeline retries transient failures and saves calculated metrics to CSV.
+- Implemented asset ranking to allocate a specified budget using return, liquidity, and volatility; the result is exported to `portfolio.csv` and displayed as an allocation chart.
 
 ## Contact
 
