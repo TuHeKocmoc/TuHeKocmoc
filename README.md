@@ -28,7 +28,7 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 **ML:** PyTorch, XGBoost, pandas, NumPy, data analysis, feature engineering, time series, model training and evaluation  
 **DevOps:** Linux/CLI, Git/GitHub, Kafka, Kubernetes, Docker, Docker Compose, Nginx, CI/CD, build and test automation  
 **Monitoring:** Prometheus, Grafana, ELK Stack  
-**Documentation:** OpenAPI, technical and user documentation, User Stories, Use Cases, Jira, Confluence  
+**Documentation:** Swagger/OpenAPI, technical and user documentation, User Stories, Use Cases, Jira, Confluence  
 **Soft skills:** task decomposition, teamwork, clear writing, presenting results, learning new tools independently
 
 ## Projects
