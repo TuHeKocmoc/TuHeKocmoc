@@ -1,11 +1,11 @@
-# Hi, I'm Danila Ryazanov 👋
+# Danila Ryazanov
 
-Software engineering student focused on backend systems, API integrations, distributed services, and applied machine learning.
+I am a third-year HSE student studying Applied Mathematics and Informatics. Most of my projects are backend services, API integrations, distributed systems, and applied ML.
 
-- 🎓 HSE University, Faculty of Computer Science — Applied Mathematics and Informatics
-- 📊 Data Science & Business Analytics track, Business Data Analysis specialization
-- 📍 Moscow · open to remote, hybrid, and on-site work
-- 🌍 Russian — native · English — C1
+- HSE University, Faculty of Computer Science
+- Data Science & Business Analytics track, Business Data Analysis specialization
+- Moscow. Open to remote, hybrid, or on-site work
+- Russian: native. English: C1
 
 ## Tech stack
 
@@ -24,44 +24,43 @@ Software engineering student focused on backend systems, API integrations, distr
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-**Backend:** REST/OpenAPI, HTTP/JSON, gRPC, JWT, external APIs and webhooks  
+**Backend:** REST/OpenAPI, HTTP/JSON, gRPC, JWT, external APIs, webhooks  
 **Engineering:** OOP, data structures and algorithms, testing, layered architecture, Linux/CLI
 
-## Featured projects
+## Projects
 
-### [BTC Forecast](https://github.com/TuHeKocmoc/kursach_website) — course project
+### [BTC Forecast](https://github.com/TuHeKocmoc/kursach_website)
 
-Web application for forecasting Bitcoin price dynamics with a FastAPI backend and a browser-based interface.
+Course project. A FastAPI web app for testing Bitcoin price forecasting models.
 
-- Built an end-to-end pipeline for OHLCV ingestion, feature engineering, forecasting, and visualization.
-- Implemented a Permutation Decision Tree and compared it with XGBoost, LSTM, and a naïve baseline using chronological holdout validation.
+- Loads and cleans OHLCV data, builds features, produces forecasts, and shows the results in a browser.
+- I implemented a Permutation Decision Tree and compared it with XGBoost, LSTM, and a naive baseline on a chronological holdout.
 - **Stack:** Python, FastAPI, OpenAPI, PyTorch, XGBoost, JavaScript, Chart.js, pytest.
 
-### [Telegram ↔ Bitrix24 task bot](https://github.com/TuHeKocmoc/pytohn-task-bot)
+### [Telegram and Bitrix24 task bot](https://github.com/TuHeKocmoc/pytohn-task-bot)
 
-Integration service that turns Telegram messages into Bitrix24 tasks and supports sprint workflows, deadlines, notifications, and scheduled reports.
+Telegram bot for creating and updating Bitrix24 tasks from messages.
 
-- Uses Bitrix24 HTTP API/webhooks and PostgreSQL for persistent state.
-- Containerized with Docker Compose; monitored with Prometheus and Grafana.
+- Supports sprint tasks, deadlines, notifications, and scheduled reports.
+- Uses the Bitrix24 HTTP API and webhooks, PostgreSQL, Docker Compose, Prometheus, and Grafana.
 
 ### [CalcAPI](https://github.com/TuHeKocmoc/yaLyceumFinal2)
 
-Distributed arithmetic-expression calculator with a REST orchestrator and gRPC workers.
+Distributed calculator written in Go.
 
-- Includes JWT authentication, SQLite persistence, parallel task execution, and a layered architecture.
-- Contains tests for handlers, the planner, calculation logic, and repositories.
+- A REST API receives expressions, and gRPC workers evaluate them in parallel.
+- Includes JWT authentication, SQLite storage, a layered structure, and tests for handlers, planning, calculations, and repositories.
 - **Stack:** Go, REST, gRPC/Protocol Buffers, SQLite, JWT.
 
 ### [Portfolio Builder](https://github.com/TuHeKocmoc/HSE_trading_project)
 
-Python application that aggregates stock and cryptocurrency data from Tinkoff Invest, OKX, and CoinGecko.
+Python tool that collects stock and cryptocurrency data from Tinkoff Invest, OKX, and CoinGecko.
 
-- Calculates asset metrics, ranks instruments, and allocates a user-defined portfolio.
-- Handles network failures and API rate limits; exports results to CSV and generates a portfolio visualization.
+- Calculates asset metrics, ranks instruments, and builds a portfolio for a specified budget.
+- Retries failed requests, handles API rate limits, exports data to CSV, and plots the final allocation.
 
 ## Contact
 
 [![Email](https://img.shields.io/badge/Email-deryazanov%40edu.hse.ru-173B57?style=flat-square)](mailto:deryazanov@edu.hse.ru)
 [![Telegram](https://img.shields.io/badge/Telegram-%40Nixlle-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Nixlle)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Danila_Riazanov-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danila-riazanov-70ba7828b/)
-
