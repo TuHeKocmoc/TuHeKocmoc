@@ -24,9 +24,9 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-**Development:** C++, Python, Go, C, Kotlin, JavaScript and TypeScript (basic), OOP, FastAPI, REST/OpenAPI, gRPC, PostgreSQL, SQLite, Git/GitHub, Linux/CLI, pytest, go test  
+**Development:** C++, Python, Go, Java, C, Kotlin, JavaScript and TypeScript (basic), OOP, FastAPI, REST/OpenAPI, gRPC, QUIC, PostgreSQL, MySQL, SQLite, Redis, S3, pytest, go test  
 **ML:** PyTorch, XGBoost, pandas, NumPy, data analysis, feature engineering, time series, model training and evaluation  
-**DevOps:** Kafka, Kubernetes, Docker, Docker Compose, CI/CD, build and test automation  
+**DevOps:** Linux/CLI, Git/GitHub, Kafka, Kubernetes, Docker, Docker Compose, Nginx, CI/CD, build and test automation  
 **Monitoring:** Prometheus, Grafana, ELK Stack  
 **Documentation:** OpenAPI, technical and user documentation, User Stories, Use Cases, Jira, Confluence  
 **Soft skills:** task decomposition, teamwork, clear writing, presenting results, learning new tools independently
