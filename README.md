@@ -1,4 +1,4 @@
-# Danila Ryazanov
+# Danila Riazanov
 
 I am a third-year HSE student studying Applied Mathematics and Informatics. Most of my projects are backend services, API integrations, distributed systems, and applied ML.
 
