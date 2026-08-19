@@ -19,7 +19,6 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square)
 ![QUIC](https://img.shields.io/badge/QUIC-4A4A4A?style=flat-square)
 
@@ -34,6 +33,11 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![FastAPI TestClient](https://img.shields.io/badge/FastAPI_TestClient-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![unittest.mock](https://img.shields.io/badge/unittest.mock-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Go testing](https://img.shields.io/badge/Go_testing-00ADD8?style=flat-square&logo=go&logoColor=white)
+![GoogleTest](https://img.shields.io/badge/GoogleTest-4285F4?style=flat-square&logo=google&logoColor=white)
+![GoogleMock](https://img.shields.io/badge/GoogleMock-4285F4?style=flat-square&logo=google&logoColor=white)
+![CTest](https://img.shields.io/badge/CTest-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![ASan](https://img.shields.io/badge/ASan-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![UBSan](https://img.shields.io/badge/UBSan-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -56,16 +60,9 @@ I am a third-year HSE student studying Applied Mathematics and Informatics. Most
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
-
-**Development:** C++, Python, Go, Java, C, Kotlin, JavaScript and TypeScript (basic), OOP, FastAPI, REST/OpenAPI, gRPC, QUIC  
-**ML:** PyTorch, TensorFlow, TensorFlow.js, XGBoost, pandas, NumPy, data analysis, feature engineering, time series, model training and evaluation  
-**Testing:** pytest, FastAPI TestClient, monkeypatch, unittest.mock, Go testing/httptest, Postman; unit, integration, and API testing  
-**DevOps:** Linux/CLI, Git/GitHub, Kafka, Kubernetes, Docker, Docker Compose, Nginx, CI/CD, build automation; PostgreSQL, MySQL, SQLite, ClickHouse, Redis, S3  
-**Monitoring:** Prometheus, Grafana, ELK Stack  
-**Documentation:** Swagger/OpenAPI, technical and user documentation, User Stories, Use Cases, Jira, Confluence  
-**Soft skills:** task decomposition, teamwork, clear writing, presenting results, learning new tools independently
 
 ## Projects
 
